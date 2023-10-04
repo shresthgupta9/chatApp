@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-Time Chat App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./media/message.png" alt="" width="50px" /> &nbsp;&nbsp;&nbsp;
+        <p>Group ChatApp</p>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+      </div>
+      <div class="send">
+        <form action="#" id="send-container">
+          <input type="text" name="msgInp" id="msgInp" />
+          <button class="btn" type="submit">Send</button>
+        </form>
+      </div>
+    </main>
+    <!-- <footer>
+        <p>Developed by Shresth Raj Gupta</p>
+    </footer> -->
+  </body>
+  <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+  <script src="./client.js"></script>
+</html>
